@@ -13,8 +13,15 @@
     "target": "es2015",
     "lib": [
       "es2018",
-      "dom"
-    ]
+      "dom" 
+    ],
+    "paths": {
+      "@lazy/security-app": [ "dist/security-app" ],
+      "security-app": [
+        "dist/security-app/security-app",
+        "dist/security-app"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
